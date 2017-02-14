@@ -1,6 +1,7 @@
  body{
 	background-image: url("../images/background.png");
 	color: #999;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 /* 
@@ -69,6 +70,14 @@
 *
  */
 
+.img-center {
+	margin:0 auto;
+}
+
+ .page-header {
+    margin: 20px 0 20px;
+}
+
  .white-background{
  	background-color: white;
  }
@@ -80,14 +89,18 @@
 	border-bottom: 3px solid #cccccc;
  }
 
-#about-me .img-responsive{
- 	margin: 0 auto;
- }
-
  #about-me{
  	line-height: 40px;
 	margin-top: 0px;
 	font-size: 20px;
+ }
+
+ .border-block{
+ 	border: 1px solid #dddddd;
+ }
+
+ .about-right-buffer{
+ 	margin-right: 40px;
  }
 
  /* 
@@ -96,11 +109,23 @@
  *
   */
 
+.connect-block{
+	width: 230px;
+}
+
+.connect-block-header{
+	font-weight: bold;
+	font-size: 20px;
+	color: #4fa59f;
+	border-bottom: 2px solid #e8e8e8;
+	padding-bottom: 20px;
+}
+
   .top-buffer{
   	margin-top: 20px;
   }
 
-  .bottom-buffer{
+  .connect-bottom-buffer{
   	padding-bottom: 20px;
   }
 
@@ -113,22 +138,22 @@
   }
 
   .sosial-link-block{
-	width: 70px;
-	height: 70px;
+	width: 55px;
+	height: 55px;
 	margin: 3px;
 	border: transparent;
 }
 
 #sosial img{
-	width: 70px;
-	height: 70px;
+	width: 55px;
+	height: auto;
 }
 
 /* 
 *
-*
-* */
-
+*     footer   
+* 
+*/
 
 .footer{
 	color: white;
