@@ -1,0 +1,141 @@
+ body{
+	background-image: url("../images/background.png");
+	color: #999;
+}
+
+/* 
+*
+*   navbar
+*
+ */
+
+ #name{
+	float: left;
+	color: white;
+	background-color: #4fa59f;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 30px;
+} 
+
+.navbar-brand{
+	height: auto;
+
+}
+
+@media (min-width: 970px) {
+    .container-fluid{
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 970px) {
+    .container{
+        max-width: 960px;
+    }
+}
+
+.navbar-header button{
+	margin-top: 20px;
+}
+
+.navbar{
+	background-color: white;
+}
+
+#menu-list{
+	padding-top: 15px;
+	font-weight: bold;
+    font-size: 20px;
+}
+
+.list-padding div{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.dush div{
+	border-left: 2px solid #cccccc;
+
+}
+
+.nav li a {
+	padding: 15px 0px 15px 0px;
+}
+
+/* 
+*
+*     About me
+*
+ */
+
+ .white-background{
+ 	background-color: white;
+ }
+
+ .page-header{
+ 	font-weight: bold;
+	font-size: 30px;
+	color: #4fa59f;
+	border-bottom: 3px solid #cccccc;
+ }
+
+#about-me .img-responsive{
+ 	margin: 0 auto;
+ }
+
+ #about-me{
+ 	line-height: 40px;
+	margin-top: 0px;
+	font-size: 20px;
+ }
+
+ /* 
+ *
+ *     Connect with me
+ *
+  */
+
+  .top-buffer{
+  	margin-top: 20px;
+  }
+
+  .bottom-buffer{
+  	padding-bottom: 20px;
+  }
+
+  .bottom-buffer{
+  	margin-bottom: 150px;
+  }
+
+  .left-buffer{
+  	margin-left: 40px;
+  }
+
+  .sosial-link-block{
+	width: 70px;
+	height: 70px;
+	margin: 3px;
+	border: transparent;
+}
+
+#sosial img{
+	width: 70px;
+	height: 70px;
+}
+
+/* 
+*
+*
+* */
+
+
+.footer{
+	color: white;
+	text-align: center;
+	width:100%;
+    min-height:100px;
+	background-color: #4fa59f;
+	border-top: 7px solid #4aaaa5;
+	padding: 30px;
+}
