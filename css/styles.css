@@ -71,6 +71,7 @@
  */
 
 .img-center {
+	padding-top: 10px;
 	margin:0 auto;
 }
 
@@ -164,3 +165,18 @@
 	border-top: 7px solid #4aaaa5;
 	padding: 30px;
 }
+
+/* 
+*
+*    contact me page
+*
+ */
+
+.btn-default {
+	color: white;
+    background-color: #4fa59f;
+}
+
+ form{
+ 	padding-bottom: 20px;
+ }
